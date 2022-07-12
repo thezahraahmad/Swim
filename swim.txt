@@ -1,0 +1,245 @@
+<html>
+    <head>
+        <title> Swimming</title>
+    </head>
+<body>
+    <h1> Swimming </h1>
+<ul>
+    <li class="nav"> <a href=""> Introduction </a> </li>
+    <li class="nav"> <a href=""> History </a> </li>
+    <li class="nav"> <a href=""> Different Styles </a> </li>
+    <li class="nav"> <a href=""> Professionals </a> </li>
+</ul>
+<div class="intro">
+    <h2> Introduction To Swimming </h2>
+    <img src="https://cdn.britannica.com/01/193601-050-F8F18A9B/Katie-Ledecky-American-lead-way-women-world-2016.jpg" height="300" width="420">
+<p><tt> Swimming is a famous, water sport, and is consistently among the top public recreational activities, and in some countries, swimming lessons are a compulsory part of the educational curriculum. Swimming is considered both a relaxing and competitive sport with many benefits.
+    </tt></p>
+    <h3> Swimming Benefits  </h3>
+    <ul> 
+    <li> can help relax oneself and cause less stress. </li>
+    <li> builds endurance, muscle strength and cardiovascular fitness </li>
+    <li> improves coordination, balance and posture </li>
+    <li> provides an all-over body workout, as nearly all of your muscles are used during swimming. </li>
+</ul>
+<h3> Facts! </h3>
+    <ul> 
+    <li> The first swimming goggles were made from tortoise shells!  </li>
+    <li> In one hour, swimming burns about 40% more calories than biking.  </li>
+    <li> Freedivers can hold their breath for more than 10 minutes. </li>
+    <li> The total volume of water in the typical Olympic-sized swimming pool is enough for approximately 9,400 baths. </li>
+</ul>
+</div>
+<br><br>
+<div class="history">
+    <h2> History Of Swimming </h2>
+<p> Swimming has proven to be popular even throughtout ancient times, proven as archaeological and other evidence shows swimming to have been practiced as early as 2500 bce in Egypt and thereafter in Assyrian, Greek, and Roman civilizations. 
+    <img class="right" src="https://thebridge.in/wp-content/uploads/2020/04/greece1-1.jpg" width="300" height="200">
+    Swimming was first introduced at the Olympics in 1896, when the first olympics began.
+    </div>
+    <h2> Quiz! </h2>
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:#D94A38;width:120px;height:20px;padding:40px;margin:20px">
+When were the first signs of swimming?
+</div>
+<br>
+<div onmouseover="mOver1(this1)" onmouseout="mOut1(this1)" 
+style="background-color:#D94A38;width:120px;height:20px;padding:40px;margin:20px">
+Who was the youngest competitive swimmer?
+</div>
+<br>
+<div onmouseover="mOver3(this3)" onmouseout="mOut3(this3)" 
+style="background-color:#D94A38;width:120px;height:20px;padding:40px;margin:20px;">
+Who was the oldest competitive swimmer?</div>
+<br>
+<div onmouseover="mOver4(this4)" onmouseout="mOut4(this4)" 
+style="background-color:#D94A38;width:120px;height:20px;padding:40px;margin:20px;">
+How many more calories does swimming burn in an hour compared to biking?</div>
+<br><br>
+<div class="dss">
+    <h2> Different Swimming Styles </h2>
+<p> Swimming by definition is the sport or activity of propelling oneself through water using the limbs. This is a very broad classification and therefore there are many different styles of swimming, read on to find out about the most popular ones.
+    <h3> Front crawl </h3>
+ The front crawl, also known the freestyle stroke, is the fastest and most efficient of the swimming strokes used in competition. This is why it is used in freestyle races and is also often the favorite stroke for experienced swimmers and triathletes.
+<p>
+    <img src="https://content.artofmanliness.com/uploads/2016/06/Front-Crawl-Stroke-3.jpg" width="400" height="300">
+    <h3> Backstroke </h3>
+<p>
+    As its name suggests, backstroke is swum on the back. It uses alternating circular arm movements and an above water recovery. The legs execute a flutter kick similar to the one used in freestyle/frontcrawl.
+    <img class="left" src="https://i.pinimg.com/originals/f4/43/1a/f4431af87b15ebfe4e4a6c4ffd3a00f4.jpg" height="200" width="300"> The backstroke provides you with a whole-body workout that's especially beneficial to the latissimus dorsi muscle (also known as the “lats”) in your back. It also works out your chest, arms, legs, glutes and core
+</p>
+</div>
+<div class="form">
+    <h2 id="sign"> Want to sign up for swimming classes? </h2>
+    <form>
+        <h2> PERSONAL INFORMATION </h2>
+NAME:
+<input type="text" width:"400px"><br><br>
+DATE OF BIRTH:
+<input type="date"><br><br>
+</form>
+<h2> CONTACT INFORMATION </h2>
+<form>
+ADDRESS:
+<input type="text"><br><br>
+CITY:
+<input type="text"><br><br>
+PHONE NUMBER:
+<input type="text"><br><br>
+COUNTRY:
+<input type="text"><br><br>
+EMAIL:
+<input type="email"><br><br>
+MEMBERSHIP TYPE:
+regular:<input type="radio">
+premium:<input type="radio">
+vip:<input type="radio">
+<h2>COURSE INFORMATION</h2>
+COURSE NAME:
+<input type="text"><br><br>
+PAYMENT DETAILS:
+Cash <input type="radio">
+Cheque <input type="radio">
+Credit card <input type="radio"><br><br>
+COMMENTS:
+<input type="text"><br><br>
+CUSTOMER SIGNATURE:
+<input type="image"><br><br>
+ </form>
+ </div>
+ </body>
+  <footer>
+    <marquee>
+        <p> Created By Zahra Ahmad </p>
+    </marquee>
+ </footer>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1::first-line{
+    font-family:lucida calligraphy;
+    font-size:3cm;
+    text-align:center;
+    color:navy;
+    text-shadow:5px 8px 9px #c3dcff;
+}
+body{
+    background:linear-gradient(to right,paleturquoise,#c5cbe6,#c5e6dc);
+    text-align:center;
+}
+.nav{
+    display:inline;
+    margin:15px;
+}
+h2{
+    color:palevioletred;
+}
+.intro{
+    border:3px double powderblue;
+    background:linear-gradient(to right,#441461,#611452);
+    color:whitesmoke;
+}
+img:hover{
+    opacity:0.5;
+}
+.right{
+    float:right;
+}
+img{
+    border:3px solid #c3ebc5;
+}
+.history{
+    border:3px double #c3ebc5;
+    background:linear-gradient(to right,#366114,#14613d,#146154);
+    color:whitesmoke;
+    height:350px;
+}
+.form{
+    background:linear-gradient(to right,#f7f3a8,#f5a658,#f28883)
+}
+#sign{
+    color:mediumslateblue;
+}
+.dss{
+    background:linear-gradient(to right,#3fe81a,#1ae8de,#1a76e8);
+    border:3px double palevioletred;
+}
+.left{
+    float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function mOver(obj) {
+  obj.innerHTML = "2500bce"
+}
+function mOut(obj) {
+  obj.innerHTML = "When were the first signs of swimming?"
+}
+function mOver1(obj) {
+  obj.innerHTML = "2500bce"
+}
+function mOut1(obj) {
+  obj.innerHTML = "Who was the youngest competitive swimmer"
+}
+function mOver3(obj) {
+  obj.innerHTML ="Mieko Nagaoka at 100 years old"
+}
+function mOut3(obj) {
+  obj.innerHTML = "Name the oldest competitive swimmer"
+}
+function mOver4(obj) {
+  obj.innerHTML ="40% more"
+}
+function mOut4(obj) {
+  obj.innerHTML = "How many more calories does swimming burn in an hour compared to biking?"
+}
